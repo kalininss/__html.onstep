@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			 url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+			 url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+	src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadProItalic/MyriadPrItalic.woff") format("woff"),
+			 url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+	font-style: italic;
+}
