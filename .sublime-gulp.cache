@@ -1,0 +1,1 @@
+{"D:\\VirtualFolder\\__html.onstep\\gulpfile.js":{"sha1":"55b73c904e5d2756c05133a3450ed445cc2c40a3","tasks":{"browser-sync":{"name":"browser-sync","dependencies":"styles"},"styles":{"name":"styles","dependencies":""},"watch":{"name":"watch","dependencies":""},"default":{"name":"default","dependencies":"browser-sync watch"}}}}

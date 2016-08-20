@@ -13,13 +13,15 @@
 	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
 			 url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
 			 url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+	font-style: normal;
 	font-weight: bold;
 }
 @font-face {
 	font-family: "MyriadPro";
 	src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
 	src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/MyriadProItalic/MyriadPrItalic.woff") format("woff"),
+			 url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
 			 url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
 	font-style: italic;
+	font-weight: normal;
 }
