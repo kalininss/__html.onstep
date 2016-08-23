@@ -59,7 +59,8 @@ h4 {font-size: 14px;}
 p {
 	margin: 10px 0;
 }
-a:hover {
+a:hover,
+a:active {
 	text-decoration: none;
 }
 .btn {
@@ -78,7 +79,8 @@ a:hover {
 	color: #fff;
 	border-color: #B7D9F4;
 }
-.btn_light:hover {
+.btn_light:hover,
+.btn_light:active {
 	background: #B7D9F4;
 	color: #fff;
 }
@@ -86,7 +88,8 @@ a:hover {
 	color: #5083ba;
 	border-color: #8CB9D9;
 }
-.btn_blue:hover {
+.btn_blue:hover,
+.btn_blue:active {
 	background: #8CB9D9;
 	color: #fff;
 }
@@ -212,6 +215,15 @@ header {
 	position: relative;
 	margin-top: 10px;
 }
+.nav_city .nav__collapse a {
+	display: inline-block;
+	width: 100%;
+	padding: 3px 10px;
+}
+.nav_city .nav__collapse a:hover,
+.nav_city .nav__collapse a:active {
+	background: #ddd;
+}
 .nav-open {
 	background: green;
 }
@@ -246,7 +258,8 @@ header a {
 	color: #818d96;
 	text-decoration: none;
 }
-header a:hover {
+header a:hover,
+header a:active {
 	color: #818d96;
 	text-decoration: none;
 }
@@ -268,7 +281,8 @@ header a:hover {
 	-webkit-transition: 0.1s;
 	transition: 0.1s;
 }
-.btn-phone:hover {
+.btn-phone:hover,
+.btn-phone:active {
 	color: #fff;
 	background: #A3C2D5;
 }
@@ -290,7 +304,8 @@ header a:hover {
 	-webkit-transition: 0.1s;
 	transition: 0.1s;
 }
-.nav-main a:hover {
+.nav-main a:hover,
+.nav-main a:active {
 	background: #75BFE5;
 	-webkit-box-shadow: inset 0 5px rgba(129, 141, 150, 0.2);
 	box-shadow: inset 0 5px rgba(129, 141, 150, 0.2);
@@ -395,7 +410,8 @@ input, select {
 	-webkit-transition: 0.1s;
 	transition: 0.1s;
 }
-.bg-link:hover {
+.bg-link:hover,
+.bg-link:active {
 	background: #f9ff80;
 }
 .category-item_first {
@@ -419,7 +435,8 @@ input, select {
 	-webkit-transition: 0.1s;
 	transition: 0.1s;
 }
-.course-list a:hover {
+.course-list a:hover,
+.course-list a:active {
 	background: #fff;
 }
 
@@ -561,11 +578,13 @@ footer .nav li {
 	color: #818d96;
 	text-decoration: none;
 }
-.footer__phone a:hover {
+.footer__phone a:hover,
+.footer__phone a:active {
 	color: #818d96;
 	text-decoration: underline;
 }
-.footer__phone a.btn-phone:hover {
+.footer__phone a.btn-phone:hover,
+.footer__phone a.btn-phone:active {
 	color: #fff;
 	text-decoration: none;
 }
@@ -584,7 +603,8 @@ footer .nav li {
 	color: #618eb1;
 	text-decoration: none;
 }
-.nav-breadcrump a:hover {
+.nav-breadcrump a:hover,
+.nav-breadcrump a:active {
 	text-decoration: underline;
 }
 .nav-breadcrump li {
@@ -665,6 +685,13 @@ footer .nav li {
 }
 .nav_subject a {
 	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	padding: 0 10px;
+}
+.nav_subject .nav__collapse a:hover,
+.nav_subject .nav__collapse a:active {
+	background: #ddd;
 }
 .btn_square {
 	font-size: 18px;
@@ -674,6 +701,10 @@ footer .nav li {
 	border-radius: 0;
 	line-height: 33px;
 	margin-left: 200px;
+}
+.btn_square:hover,
+.btn_square:active {
+	background: #2CA4D7;
 }
 
 
@@ -715,6 +746,15 @@ footer .nav li {
 	font-family: Arial;
 	color: #618eb1;
 	text-decoration: none;
+	display: inline-block;
+	padding: 5px 0;
+}
+.tutor-right a:hover,
+.tutor-right a:active {
+	padding: 5px 10px;
+	margin-left: -10px;
+	color: #fff;
+	background: #618eb1;
 }
 .tutor-left h4 {
 	margin-left: 10px;
@@ -758,13 +798,23 @@ footer .nav li {
 }
 .request-title {
 	font-size: 20px;
-	text-decoration: underline;
 	color: #618eb1;
 	font-family: Arial;
 	display: inline-block;
 	margin: 0 auto;
 	width: 39%;
 	text-align: center;
+}
+.request-title a {
+	text-decoration: underline;
+	color: #618eb1;
+}
+.request-title a:hover,
+.request-title a:active {
+	background: #618eb1;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
 }
 .btn_full {
 	font-size: 14px;
@@ -777,7 +827,10 @@ footer .nav li {
 	background: #2CA4D7;
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
-
+}
+.btn_full:hover,
+.btn_full:active {
+	background: #268ab5;
 }
 .request-item {
 	border: 2px solid #A8C7DA;
@@ -851,12 +904,16 @@ footer .nav li {
 	display: inline-block;
 	padding-top: 5px;
 	padding-bottom: 6px;
+	background: #fff;
 }
 .form_common option {
 	line-height: 1.6;
 }
 .form_common textarea {
 	height: 170px;
+}
+.form_common input {
+	background: #fff;
 }
 .auth-form input[type="submit"] {
 	float: right;
@@ -1093,6 +1150,11 @@ b {
 	top: 0;
 	right: 0;
 	cursor: pointer;
+	opacity: 0.5;
+}
+.i-close:hover,
+.i-close:active {
+	opacity: 1;
 }
 
 .form_light hr {
@@ -1140,19 +1202,18 @@ b {
 .tabs_4 ul li {
 	width: 25%;
 }
-.tabs ul li.active, .tabs ul li.active:hover{
+.tabs ul li.active, .tabs ul li.active:hover,
+.tabs ul li.active:active {
 	background:#438FB4;
 	color:#fff;
 }
-.tabs ul li:hover{
+.tabs ul li:hover,
+.tabs ul li:active {
 	background:#d6d6d7;
 }
 
 
 /*профиль*/
-.form-pofile {
-
-}
 .btn_file {
 	background: #DFE4E4;
 	font-size: 15px;
@@ -1165,6 +1226,13 @@ b {
 	cursor: pointer;
 	padding: 0 70px;
 	margin-top: 20px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.btn_file:hover,
+.btn_file:active {
+	background: #438FB4;
+	color: #fff;
 }
 input[type="file"].hidden_file {
 	position: absolute; 
@@ -1194,6 +1262,13 @@ input[type="file"].hidden_file {
 	color: #a50000;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	cursor: pointer;
+	-webkit-transition: 0.1s;
+	transition: 0.1s;
+}
+.profile-subject:hover,
+.profile-subject:active {
+	background: #f9ff80;
 }
 .i-close-x {
 	cursor: pointer;
@@ -1203,6 +1278,11 @@ input[type="file"].hidden_file {
 	margin-left: 5px;
 	vertical-align: middle;
 	margin-bottom: 1px;
+	opacity: 0.8;
+}
+.i-close-x:hover,
+.i-close-x:active {
+	opacity: 1;
 }
 input.btn_save {
 	background: #75BFE5;
@@ -1220,7 +1300,8 @@ input.btn_save {
 	cursor: pointer;
 	margin-top: 30px;
 }
-input.btn_save:hover {
+input.btn_save:hover,
+input.btn_save:active {
 	background: #438FB4;
 }
 
@@ -1320,6 +1401,11 @@ input.btn_save:hover {
 	color: #53708e;
 	border: none;
 	margin: 33px auto 0;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.btn_popup:hover {
+	background: #b4d7ee;
 }
 .btn_big-blue {
 	border: none;
@@ -1328,6 +1414,13 @@ input.btn_save:hover {
 	max-width: 310px;
 	clear: both;
 }
+.btn_big-blue:hover,
+.btn_big-blue:active {
+	background: #24a2d7;
+}
 .tac {
 	text-align: center;
 }
+
+
+
