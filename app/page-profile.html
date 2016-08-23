@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>                <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>                   <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>                   <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->   <html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>OnStep - поиск репетиторов</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- Картинка для отображения в соц. сетях -->
+	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
+
+	<!-- Custom Browsers Color Start -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#64B2E8">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#64B2E8">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#64B2E8">
+	<!-- Custom Browsers Color End -->
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<a href="#" class="header__logo logo-link"><img src="img/logo.png" alt="Логотип OnStep" class="logo"><span class="logo-text">все репетиторы</span></a>
+			<div class="header__city">
+				<p class="t-italic"><i class="i-map"></i>ваш город</p>
+				<ul class="nav nav_city">
+					<li><a class="nav_open-btn"><h3>Санкт-Петербург</h3><i class="i-arrow-grey"></i></a>
+						<ul class="nav nav__collapse">
+							<li><a href="#"><h3>Москва</h3></a></li>
+							<li><a href="#"><h3>Новосибирск</h3></a></li>
+							<li><a href="#"><h3>Екатеринбург</h3></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="b-phone">
+				<p class="t-italic"><i class="i-whatsapp"></i>звонок бесплатный</p>
+				<a class="btn-phone" href="tel:88005553511">8 800 555 35 11</a>
+			</div>
+		</div>
+		<nav class="nav-main">
+			<div class="container">
+				<ul class="nav nav_flex">
+					<li><a class="nav_open-btn">Репетиторы<i class="i-arrow-light"></i></a>
+						<ul class="nav nav__collapse">
+							<li><a href="#">Текст</a></li>
+							<li><a href="#">Текст</a></li>
+							<li><a href="#">Текст</a></li>
+						</ul>
+					</li>
+					<li><a href="#">О проекте</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Наши контакты</a></li>
+					<li><a href="#">Репетиторам</a></li>
+					<li class="nav-item_active"><a href="#"><i class="i-login"></i>Вход/регистрация</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		
+		<nav>
+			<div class="container">
+				<ul class="nav nav-breadcrump">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Личный кабинет</a></li>
+					<li>Профиль</li>
+				</ul>
+			</div>
+		</nav>
+
+		<section class="s-page">
+			<div class="container">
+				<div class="tabs tabs_4">
+					<ul>
+						<li><h3>Профиль</h3></li>
+						<li><h3>Заявки</h3></li>
+						<li><h3>Сообщения</h3></li>
+						<li><h3>Отзывы</h3></li>
+					</ul>
+					<div>
+						<div>
+							<form class="form-pofile form_common clearfix">
+								<div class="form-profile__left clearfix">
+									<div class="b-file">
+										<img src="img/no-photo.png" alt="">
+										<input class="hidden_file" type="file" name="f1" id="f1" style="">
+										<div class="btn_file" onclick="document.getElementById('f1').click();">Добавить фото</div>
+									</div>
+									<div class="b-file">
+										<img src="img/no-docs.png" alt="">
+										<input class="hidden_file" type="file" name="f2" id="f2" style="" multiple>
+										<div class="btn_file" onclick="document.getElementById('f2').click();">Добавить фото</div>
+									</div>
+								</div>
+								<div class="form-profile__right clearfix">
+
+									<label for="a">ФИО:</label>
+									<input name="a" id="a" type="text">
+
+									<label for="b">E-mail:</label>
+									<input name="b" id="b" type="text">
+
+									<label for="d">Номер телефона:</label>
+									<input name="d" id="d" type="text">
+
+									<label for="e">Город:</label>
+									<select name="e" id="e">
+										<option value="Новосибирск">Новосибирск</option>
+										<option value="Санкт-Петербург">Санкт-Петербург</option>
+										<option value="Москва">Москва</option>
+										<option value="Калининград">Калининград</option>
+									</select>
+
+									<label>Предметы:</label>
+									<div class="clearfix">
+										<div class="profile-subject">Английский язык<i class="i-close-x"></i></div>
+										<div class="profile-subject">Китайский язык<i class="i-close-x"></i></div>
+									</div>
+
+									<label for="f">Добавить:</label>
+									<select name="f" id="f">
+										<option value="Новосибирск">Новосибирск</option>
+										<option value="Санкт-Петербург">Санкт-Петербург</option>
+										<option value="Москва">Москва</option>
+										<option value="Калининград">Калининград</option>
+									</select>
+
+								</div>
+								<input type="submit" value="Сохранить" class="btn btn_save">
+							</form>
+						</div>
+						<div>Второе содержимое</div>
+						<div>Третье содержимое</div>
+						<div>Четвёртое содержимое</div>
+					</div>            
+				</div> 
+			</div>
+		</section>
+
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footer-row">
+				<a href="#" class="footer__logo logo-link"><img src="img/logo.png" alt="Логотип OnStep" class="logo"></a>
+				<div class="menu-footer">
+					<ul class="nav footer-col-1">
+						<li>Международный сервис поиска преподавателей</li>
+						<li><a href="#">Публичная оферта для физических лиц</a></li>
+						<li><a href="#">Публичная оферта для юридиеских лиц</a></li>
+						<li><a href="#">Пользовательское соглашение</a></li>
+						<li><a href="#">Использование материалов</a></li>
+					</ul>
+					<ul class="nav footer-col-2">
+						<li><a href="#">Стать партнёром</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Пресса о нас</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Вакансии</a></li>
+					</ul>
+					<ul class="nav footer-col-3">
+						<li><a href="#">Размещение рекламы</a></li>
+						<li><a href="#">Оставить заявку</a></li>
+						<li><a href="#">База знаний</a></li>
+						<li><a href="#">Чёрный список преподавателей</a></li>
+						<li><a href="#">Отзывы</a></li>
+					</ul>
+					<ul class="nav footer-col-4">
+						<li><a href="#">Как это работает</a></li>
+						<li><a href="#">Для учеников</a></li>
+						<li><a href="#">Для частных преподавателей</a></li>
+						<li><a href="#">Для юридическийх лиц</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-right">
+				<div class="b-phone footer__phone">
+					<p class="t-italic"><i class="i-whatsapp"></i>звонок бесплатный</p>
+					<a class="btn-phone" href="tel:88005553511">8 800 555 35 11</a>
+					<p class="footer-text"><a href="mailto:info@onstep.ru">info@onstep.ru</a> <br>Часы работы: <br>10:00 - 21:00 будние <br>11:00 - 21:00 сб., вс. <br><i class="i-card"></i></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>	
+	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>	
+	<script src="libs/masked-input/masked-input.js"></script>
+	<script src="libs/lighttabs/lighttabs.js"></script>
+
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
