@@ -1309,12 +1309,16 @@ input.btn_save:active {
 /*popup*/
 .popup {
 	display: none;
-	position: absolute;
+	position: fixed;
 	width: 1160px;
 	padding: 60px 60px 40px;
 	background: #fff;
 	left: 50%;
 	margin-left: -580px;
+	max-height: 96vh;
+	top: 2vh;
+	overflow: overlay;
+	z-index: 10;
 }
 .popup-col {
 	float: left;
